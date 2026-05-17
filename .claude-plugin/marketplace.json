@@ -5,12 +5,12 @@
   "owner": {
     "name": "panma"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "plugins": [
     {
       "name": "panma-harness",
       "description": "Multi-agent supervisor harness. Auto-dispatches role-based subagents (designer, executors, verifier, rule-applier) with Ralph loop, retry budget, and project-defined domain executors.",
-      "version": "0.0.1",
+      "version": "0.0.2",
       "author": {
         "name": "panma"
       },
