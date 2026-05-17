@@ -13,6 +13,7 @@ Claude Code plugin marketplace for plugins published by panma.
 | Plugin | Description |
 |--------|-------------|
 | [panma-harness](https://github.com/panma-claude/harness) | Multi-agent supervisor harness — auto-dispatches designer/executors/verifier/rule-applier with Ralph loop, retry budget, and project-defined domain executors. |
+| [panma-hud](https://github.com/panma-claude/hud) | Two-line Claude Code statusline — session summary on top, live panma-harness cycle state below when active. |
 
 ## Install a plugin
 

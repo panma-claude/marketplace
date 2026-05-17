@@ -5,7 +5,7 @@
   "owner": {
     "name": "panma"
   },
-  "version": "0.0.2",
+  "version": "0.0.3",
   "plugins": [
     {
       "name": "panma-harness",
@@ -25,6 +25,26 @@
         "orchestration",
         "supervisor",
         "ralph-loop"
+      ]
+    },
+    {
+      "name": "panma-hud",
+      "description": "Heads-up display for Claude Code. A statusline script showing session info (model, cwd, ctx%, cost) plus live panma-harness cycle state (phase, workers, retries, STOP) when .harness/state.json is present.",
+      "version": "0.0.1",
+      "author": {
+        "name": "panma"
+      },
+      "source": {
+        "source": "url",
+        "url": "git@github.com:panma-claude/hud.git"
+      },
+      "category": "ui",
+      "homepage": "https://github.com/panma-claude/hud",
+      "tags": [
+        "statusline",
+        "hud",
+        "harness",
+        "observability"
       ]
     }
   ]
