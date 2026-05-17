@@ -16,7 +16,7 @@
       },
       "source": {
         "source": "url",
-        "url": "https://github.com/panma-claude/harness.git"
+        "url": "git@github.com:panma-claude/harness.git"
       },
       "category": "orchestration",
       "homepage": "https://github.com/panma-claude/harness",
