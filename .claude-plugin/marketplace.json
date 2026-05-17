@@ -1,0 +1,28 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "panma",
+  "description": "Claude Code plugins by panma",
+  "owner": {
+    "name": "panma"
+  },
+  "version": "0.0.1",
+  "plugins": [
+    {
+      "name": "panma-harness",
+      "description": "Multi-agent supervisor harness. Auto-dispatches role-based subagents (designer, executors, verifier, rule-applier) with Ralph loop, retry budget, and project-defined domain executors.",
+      "version": "0.0.1",
+      "author": {
+        "name": "panma"
+      },
+      "source": "github:panma-claude/harness",
+      "category": "orchestration",
+      "homepage": "https://github.com/panma-claude/harness",
+      "tags": [
+        "multi-agent",
+        "orchestration",
+        "supervisor",
+        "ralph-loop"
+      ]
+    }
+  ]
+}
