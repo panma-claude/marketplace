@@ -5,7 +5,7 @@
   "owner": {
     "name": "panma"
   },
-  "version": "0.0.20",
+  "version": "0.0.21",
   "plugins": [
     {
       "name": "panma-harness",
@@ -30,7 +30,7 @@
     {
       "name": "panma-hud",
       "description": "Heads-up display for Claude Code. Statusline showing model, session title (with panma-harness sidecar override), context % with inline 200k+ warning, and 5h/7d quota utilization, plus live panma-harness cycle state (phase, workers, retries, STOP) when .harness/state.json is present.",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "author": {
         "name": "panma"
       },
